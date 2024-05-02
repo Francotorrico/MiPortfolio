@@ -1,0 +1,62 @@
+/* Definición de animación slideUp */
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Agregar la clase 'animated' para establecer las propiedades de la animación */
+.animated {
+    animation-duration: 1s; /* Duración de la animación */
+    animation-fill-mode: both; /* La animación mantiene su estado final */
+}
+
+/* Agregar la clase 'slideUp' para aplicar la animación específica a los elementos */
+.slideUp {
+    animation-name: slideUp; /* Nombre de la animación */
+}
+
+
+/* Definición de animación slideRight */
+@keyframes slideRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Definición de animación blinking */
+@keyframes blinking {
+    0%, 50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Agregar la clase 'animated' para establecer las propiedades de la animación */
+.animated {
+    animation-duration: 1s; /* Duración de la animación */
+    animation-fill-mode: both; /* La animación mantiene su estado final */
+}
+
+/* Agregar la clase 'slideRight' para aplicar la animación específica a los elementos */
+.slideRight {
+    animation-name: slideRight; /* Nombre de la animación */
+}
+
+/* Estilo para el punto parpadeante */
+.blinking-dot {
+    animation: blinking 1s infinite; /* Nombre de la animación, duración y repeticiones */
+}
+

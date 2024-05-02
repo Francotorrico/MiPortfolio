@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+nav{
+    background-color: rgba(31, 25, 25, 0.884);
+}
+li{
+    font-size: 160%;
+    color: antiquewhite;
+}
+
+nav div ul li a:hover{
+        background:#e2dcd94f;
+        border-radius:50px;
+        color: rgba(219, 216, 216, 0.89) !important;
+
+}
+a{
+    display:inline-block;
+	color:rgb(250, 239, 239);
+    text-decoration:none;
+}
+header{
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.body--fondo{
+    background-image: url(../img/_ee6503c8-c902-4fb6-96ad-2d100d3d5a2c.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+
+.main--fuente{
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18ch;
+}
+.main--fuentechica{
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3ch;
+}
+
+@keyframes slideIn {
+    0% {
+      transform: translateX(500px) scale(.2);
+    }
+    100% {
+      transform: translateX(0px) scale(1);
+    }
+}
+.button--sections{
+    background:#e2dcd94f;
+    border-radius:50px;
+    color: rgba(219, 216, 216, 0.89) !important;
+    margin-top: 10% !important;
+    padding-top: 5%;
+
+}
+.button--sections:hover {
+    background: #ffffff5e; /* Cambia el color de fondo al pasar el mouse */
+    color: #000000; /* Cambia el color del texto al pasar el mouse */
+}
+@media (max-width: 768px) {
+    .button--sections {
+        padding-top: 15%;
+        font-size: 10px; /* Reducir el tamaño de la fuente en pantallas pequeñas */
+    }
+}
+.div--transition:hover {
+    background-color: rgb(255, 255, 255) !important;
+    transition: background-color 0.1s ease;
+    -webkit-transition: background-color 0.1s ease;
+    -moz-transition: background-color 0.1s ease;
+    -ms-transition: background-color 0.1s ease;
+    -o-transition: background-color 0.1s ease;
+}
+.rounded-5 {
+    border: none; /* Elimina cualquier borde alrededor de la imagen */
+}
+footer{
+    transition: .1s all;
+    -webkit-transition: .1s all;
+    -moz-transition: .1s all;
+    -ms-transition: .1s all;
+    -o-transition: .1s all;
+}
+footer a:hover{
+    font-size: small;
+    color: #97c2da;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+    -ms-transition: .1s;
+    -o-transition: .1s;
+}
