@@ -82,6 +82,14 @@ header{
 .rounded-5 {
     border: none; /* Elimina cualquier borde alrededor de la imagen */
 }
+@media (min-width: 768px) {
+    .responsive-card {
+        height: 330px !important;
+    }
+    .responsive-card{
+        width: 100%;
+    }
+}
 footer{
     transition: .1s all;
     -webkit-transition: .1s all;
