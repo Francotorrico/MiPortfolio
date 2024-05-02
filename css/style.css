@@ -25,7 +25,7 @@ header{
 }
 
 .body--fondo{
-    background-image: url(../img/_ee6503c8-c902-4fb6-96ad-2d100d3d5a2c.jpeg);
+    background-image: url(/MiPortfolio/img/fondo.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
